@@ -1,0 +1,29 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4202
+
+*altr* is a Vim plugin to switch files easily.
+
+For example, suppose that you are developing a Vim plugin which is called
+"foo".  You often edit specific files such as "autoload/foo.vim",
+"doc/foo.txt", "plugin/foo.vim", etc.  Sometimes one of the files is not
+displayed in any window.  So you have to open the missing file explicitly.
+But there are many ways to open the missing file.  How do you open the missing
+file?  |:edit|, |:buffer|, or your favorite buffer-management plugin?
+
+Whatever you choose, you have to type some keys to specify what the missing
+file is.  So there is no way to open the missing file WITHOUT INTERACTION.
+You'll probably wish if there is a command to open the missing file without
+interaction.  This plugin, altr, provides the command.
+
+The best keys and Ex commands to open the missing file are varied for each
+user.  So that altr doesn't define neither the default keys nor the default Ex
+commands.  See |altr-examples| for details.
+
+
+Requirements:
+- Vim 7.2 or later
+
+Latest version:
+http://github.com/kana/vim-altr
+
+Document in HTML format:
+http://vim-doc.heroku.com/view?https://github.com/kana/vim-altr/blob/master/doc/altr.txt
